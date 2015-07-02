@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+@media screen and (min-width: 992px) {
+	body {
+		font-family: "Lato";
+		font-size: 18px;
+		font-weight: 300;
+	}
+	main {
+		margin-left: 30%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-right: 20px;
+	}
+
+	header {
+		padding: 1em 1em 1em 1em;
+	}
+
+	function removeElement() {
+		document.getElementById("FeedingHungryHuskiesSince2013").style.display: none;
+	}
+
+	.container-fluid {
+		margin-left: 30%;
+		margin-top:20px;
+		margin-right:20px;
+		margin-bottom:20px;
+		padding: 1em 1em 1em 1em;
+	}
+
+	nav {
+		position: absolute;
+		top:10px;
+		right:10px;
+	}
+}
+	a:link {
+		color:#0000AA;
+		text-decoration: none;
+	}
+	a:visited {
+		color:#0000AA;
+	}
+	a:hover {
+		color:#0000EE;
+	}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Raleway', "Lato";
+	font-weight: 300;
+}
+	
+h1 {
+	font-size: 300%;
+	margin-top: 0cm;
+	margin-right: 0cm;
+	margin-left: 0cm;
+	margin-bottom: 0cm;
+}
+
+h2 {
+	color: #505050;
+	font-size: 150%;
+	margin: 0cm;
+}
+
+h3 {
+	color: #505050;
+	font-size: 125%;
+}
+
+nav ul {
+	padding:0;
+	margin:0;
+}
+
+ul li {
+	list-style-type: none;
+    display: inline-block;
+    margin-right:1em;
+}
+
+nav a:link {
+	color: #55E;
+}
+
+nav a:hover, nav a:focus {
+	color:#00E;
+}
+
+main {
+	background-image: url("../img/ricepaper_v3.png");
+	opacity: 0.9;
+}
+header {
+		background-color: #FA5A0F;
+		border-bottom: 5px #EA4A00;
+		color: #FFFFFF;
+}
+
+.container-fluid {
+	background: rgba(207, 205, 140, 0.5);
+}
+
+body {
+	background-image: url('../img/background.jpg');
+	background-size:100%;
+	background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
